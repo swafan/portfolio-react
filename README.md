@@ -2,6 +2,8 @@
 
 This is my personal website, built with [React](https://react.dev/) and [Vite](https://vitejs.dev/). It features information about me, my writings, projects, and ways to get in touch.
 
+Website url: [https://swafan.github.io/portfolio-react/](https://swafan.github.io/portfolio-react/).
+
 ## Features
 - Responsive design for desktop and mobile
 - Writing detail pages rendered from markdown
