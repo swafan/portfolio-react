@@ -26,7 +26,7 @@ But meant by whom? In what version of the world?
 
 <!-- replace image, make hyperlinks work -->
 <figure>
-  <img src="../maurilia_img_1.jpg" alt="Maurilia image 1" />
+  <img src="maurilia_img_1.jpg" alt="Maurilia image 1" />
   <figcaption class="writing-img-caption">Photo by <a href="https://unsplash.com/@bukovan12?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Marek Bukovan</a> on <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
@@ -90,7 +90,7 @@ And that’s why I’ve been thinking about cicadas in summer.
 
 <!-- replace image, make hyperlinks work -->
 <figure>
-  <img src="../maurilia_img_2.jpg" alt="Maurilia image 2" />
+  <img src="maurilia_img_2.jpg" alt="Maurilia image 2" />
   <figcaption class="writing-img-caption">Photo by <a href="https://unsplash.com/@irelandrose?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Ireland Rogers</a> on <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
@@ -166,7 +166,7 @@ This feels heavier—like watching a species argue with itself in real time. Wit
 
 <!-- replace image, make hyperlinks work -->
 <figure>
-  <img src="../maurilia_img_3.jpg" alt="Maurilia image 3" />
+  <img src="maurilia_img_3.jpg" alt="Maurilia image 3" />
   <figcaption class="writing-img-caption">Photo by <a href="https://unsplash.com/@pizlfilip?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Filip Pižl</a> on <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>
 
@@ -236,6 +236,6 @@ As if we didn’t keep trying to grow backwards, even while dreaming forward.
 
 <!-- replace image, make hyperlinks work -->
 <figure>
-  <img src="../maurilia_img_4.jpg" alt="Maurilia image 4" />
+  <img src="maurilia_img_4.jpg" alt="Maurilia image 4" />
   <figcaption class="writing-img-caption">Photo by <a href="https://unsplash.com/@maartendeckers?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank" rel="noopener noreferrer">Maarten Deckers</a> on <a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a></figcaption>
 </figure>

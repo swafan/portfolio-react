@@ -13,7 +13,7 @@ Gregor then sent it to a publisher. Two weeks later, he was a bestseller. He won
 No one ever asked what it means. Not even him. (And why would they? He was the second coming of Goethe.)
 
 <figure>
-  <img src="../deep_yellow_img_1.jpeg" alt="Deep Yellow image 1" />
+  <img src="deep_yellow_img_1.jpeg" alt="Deep Yellow image 1" />
   <figcaption class="writing-img-caption">AI-generated image (Midjourney, prompt by author).
 </figcaption>
 </figure>
@@ -78,7 +78,7 @@ Somewhere in that library is *Pride and Prejudice*. And somewhere else, *Pride a
 This is the horror and the miracle of the Library: that everything has already been written. Not just the canonical. Not just the classics. *Everything*. Every sentence you could ever write—beautiful or banal, precise or absurd—is already there, printed, bound, and shelved.
 
 <figure>
-  <img src="../deep_yellow_img_2.jpeg" alt="Deep Yellow image 2" />
+  <img src="deep_yellow_img_2.jpeg" alt="Deep Yellow image 2" />
   <figcaption class="writing-img-caption">AI-generated image (Midjourney, prompt by author).
 </figcaption>
 </figure>
@@ -155,7 +155,7 @@ Just… written in a language I don’t recognize.
 ---
 
 <figure>
-  <img src="../deep_yellow_img_3.jpeg" alt="Deep Yellow image 3" />
+  <img src="deep_yellow_img_3.jpeg" alt="Deep Yellow image 3" />
   <figcaption class="writing-img-caption">AI-generated image (Midjourney, prompt by author).
 </figcaption>
 </figure>
@@ -287,7 +287,7 @@ On page 364, “box.”
 I can’t explain how excited that made me feel.
 
 <figure>
-  <img src="../deep_yellow_img_4.jpeg" alt="Deep Yellow image 4" />
+  <img src="deep_yellow_img_4.jpeg" alt="Deep Yellow image 4" />
   <figcaption class="writing-img-caption">AI-generated image (Midjourney, prompt by author).
 </figcaption>
 </figure>
