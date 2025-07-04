@@ -1,0 +1,246 @@
+.writings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 37.5rem;
+    overflow: hidden;
+}
+.writing-title{
+    margin-top: 2rem;
+}
+.writing-card-polaroid {
+    position: relative;
+    width: 18.75rem;
+    height: 29.375rem;
+    min-height: 29.375rem;
+    max-height: 29.375rem;
+    border-radius: 0.875rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0.156rem solid #eee;
+    transition: box-shadow 0.2s, transform 0.2s, background 0.2s;
+}
+.writing-card-polaroid:hover {
+    z-index: 10;
+    background: #e0e0e0; /* dim to grey */
+}
+.writing-card-polaroid-photo {
+    width: 100%;
+    height: 11.25rem; /* fixed photo height */
+    min-height: 11.25rem;
+    max-height: 11.25rem;
+    border-radius: 0.875rem 0.875rem 0 0;
+    margin: 0;
+    box-shadow: none;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+/* New inner container for zoom effect */
+.writing-card-polaroid-photo-inner {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.4s cubic-bezier(.4,2,.6,1), filter 0.3s;
+    filter: grayscale(1);
+}
+/* Zoom effect on hover */
+.writing-card-polaroid:hover .writing-card-polaroid-photo-inner {
+    transform: scale(1.08);
+    filter: none;
+}
+.writing-card-polaroid-content {
+    padding: 1.125rem 1.25rem 1.125rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.writing-card-polaroid-content h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+}
+.writing-card-tags {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.writing-card-time {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 0.375rem;
+}
+.writing-card-polaroid-content p {
+    font-size: 1rem;
+    margin: 0;
+}
+.writings-carousel-wrapper {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 0 2rem 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.writings-carousel {
+    padding-bottom: 2.5rem;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.writings-carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+.writing-markdown {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.13rem;
+  line-height: 1.7;
+  color: #292929;
+}
+.writing-markdown p {
+  margin-bottom: 1.3em;
+}
+.writing-markdown br {
+  display: block;
+  margin-bottom: 1em;
+  content: "";
+}
+.writing-markdown img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto 1.5rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.07);
+}
+.writing-markdown figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1.5rem 0;
+}
+.writing-markdown figcaption,
+.writing-img-caption {
+  font-size: 0.98rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+.writing-detail {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.writing-detail-title {
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #292929;
+}
+.writing-detail-subtitle {
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #555;
+}
+.writing-detail-meta {
+  color: #888;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+.writing-back-btn {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  color: #0086b3;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.writing-back-btn:hover {
+  color: #0086b3;
+  text-decoration: underline;
+}
+.writing-back-btn-bottom-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+.writing-markdown a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-position: under;
+  transition: color 0.2s;
+}
+.writing-markdown a:hover {
+  color: #0086b3;
+}
+.writing-markdown blockquote {
+  border-left: 4px solid #0086b3;
+  margin: 2rem 0 2rem 0;
+  padding: 0.5rem 1.5rem;
+  background: #f7fbfd;
+  color: #222;
+  font-style: italic;
+  font-size: 1.13rem;
+  line-height: 1.7;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+.writing-markdown blockquote p {
+  margin: 0;
+}
+.writing-markdown ol,
+.writing-markdown ul {
+  margin: 1.2em 0 1.2em 1.5em;
+  padding-left: 1.2em;
+}
+.writing-markdown li {
+  margin-bottom: 0.5em;
+  padding-left: 0.2em;
+}
+.writing-markdown hr {
+  border: none;
+  border-top: 1.5px solid #bbb;
+  margin: 2.2em 0 2.2em 0;
+  width: 90%;
+}
+@media (max-width: 950px) {
+    .writings {
+        width: 100vw;
+        min-height: unset;
+    }
+    .writing-title{
+        margin: 0 0 2rem 0;
+    }
+    .writing-card-polaroid {
+        position: static;
+        margin: 1.5rem 0 0 0;
+        width: 90vw;
+        max-width: 21.25rem;
+        min-height: 23.75rem;
+        height: 25rem;
+        max-height: 25rem;
+    }
+    .writing-card-polaroid-photo {
+        height: 9.375rem;
+        min-height: 9.375rem;
+        max-height: 9.375rem;
+    }
+}

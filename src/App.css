@@ -1,0 +1,50 @@
+.app-root {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.navbar-hero-bg-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 187.5vh; /* or adjust as needed */
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(100%);
+    pointer-events: none;
+    z-index: 0;
+}
+.navbar-hero-content {
+    position: relative;
+    z-index: 1;
+}
+.navbar-hero-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: 120vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}

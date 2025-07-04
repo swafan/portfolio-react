@@ -1,0 +1,52 @@
+.hero{
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding-bottom: 2rem;
+}
+.hero h1{
+    text-align: center;
+    width: 100%;
+    font-size: 8rem;
+    font-weight: 600;
+    font-family: 'caveat';
+}
+.hero p{
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+}
+@media (max-width: 950px) {
+    .hero {
+        padding: 2.5rem 1.2rem 1.2rem 1.2rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero h1 {
+        font-size: 4.5rem;
+        margin-bottom: 0rem;
+        line-height: 1.2;
+    }
+    .hero p{
+        font-size: 1.1rem;
+        line-height: 1.5;
+        margin-bottom: 0.5rem;
+    }
+    .hero-action{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero-connect, .hero-resume{
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,81 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.about-title{
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 4rem;
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 29rem; /* add or adjust this value for more right spacing */
+    margin-right: 4rem;
+}
+.about-resume-btn {
+  display: inline-block;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 50px;
+  background: #222; /* solid dark gray */
+  font-size: 18px;
+  padding: 10px 28px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.3s;
+  color: #fff;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10);
+  max-width: 15rem;
+}
+.about-resume-btn:hover {
+  background: #0086b3;
+  color: white;
+  transform: translateY(-2px) scale(1.06);
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.13);
+}
+@media (max-width: 950px) {
+  .about {
+    height: 100vh;
+    padding: 0 1.2rem 2.5rem 1.2rem;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about-title {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+    color: #222;
+    mix-blend-mode: unset;
+  }
+  .about-para {
+    flex-direction: column;
+    gap: 2.2rem;
+    width: 100%;
+    font-size: 1.1rem;
+    gap: 1rem;
+    width: 100%;
+    text-align: justify;
+    margin: 0;
+    padding: 1.5rem 0 0 0;
+    align-items: center;
+  }
+  .about-resume-btn {
+    font-size: 1rem;
+    padding: 0.5em 1.2em;
+    margin-top: 0.15em;
+    align-self: center;
+  }
+}
