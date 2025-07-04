@@ -3,4 +3,4 @@ This favicon was generated using the following font:
 - Font Title: Caveat
 - Font Author: undefined
 - Font Source: https://fonts.gstatic.com/s/caveat/v22/WnznHAc5bAfYB2QRah7pcpNvOx-pjSx6SIKjYBxPigs.ttf
-- Font License: undefined)
+- Font License: undefined
