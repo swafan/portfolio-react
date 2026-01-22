@@ -44,8 +44,7 @@ Let’s consider, properly, the art object (glasses) itself. Already, it is in a
 
 I took a few electives in art history during college.
 
-Before I took them, I had thought the most important questions were “what is art” and “is *
-x* art?” I was told to briefly withhold those questions and instead prod works I do not understand with: "*as an art object*, what does this say?”
+Before I took them, I had thought the most important questions were “what is art” and “is *x* art?” I was told to briefly withhold those questions and instead prod works I do not understand with: "*as an art object*, what does this say?”
 
 The questions I had dissolved shortly after that.
 
